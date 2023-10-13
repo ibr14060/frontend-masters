@@ -1,0 +1,220 @@
+.body{
+    background-color: #ae4949;
+}
+.myheader{
+background-color:#594545; 
+display:flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+padding: 0%;
+border-radius: 5px;
+margin-top: -0.47%;
+
+};
+.myheader img.image{
+    width: 1px ;
+    border-radius: 5px;
+    margin-right: 10px; 
+
+}
+.myheader  h1{
+    color: #FAEAB1;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+.card{
+    background-color: #eee1d5;
+    border:  1px solid #815B5B;
+    border-radius: 5px;
+    margin-top: 4%;
+    width: 50%;
+    height: auto;
+    margin-left: 40%;
+
+}
+.cardname{
+    font-size: 95%;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#AD8B73;
+}
+.Cappuccino{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    font-size: 95%;
+    width: 25%;
+    max-width: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6.75%;
+    margin-left: 40%;
+    font-size: 95%;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.add{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5%;
+    margin-left: 5%;
+    color:#AD8B73;
+    font-size: 13px;
+    padding: 6px;
+    font-size: 95%;
+}
+.col{
+  
+    display: flex;
+    flex-direction: column;
+}
+.innercol {
+    border-bottom: 1.5px solid #9E7676; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+
+}
+.secondcard{
+    background-color: #eee1d5;
+    border:  1px solid #815B5B;
+    border-radius: 5px;
+    margin-top: 8%;
+    width: 80%;
+    height: 40%;  
+    margin-left: -43.5%;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 20%;
+    column-gap: 10%;
+}
+.inputname{
+    border: 2px solid #AD8B73;
+    border-radius: 25px;
+    white-space: nowrap;
+    width: 80%;
+    padding: 1%;
+    margin-left: 3%;
+    margin-top: 2%;
+    background-color: #eee1d5;
+    margin-bottom: 3%;
+
+}
+.inputname:focus{
+    border: 2px solid #AD8B73;
+}
+
+.name{
+    margin-left: 5.5%;
+    color: #AD8B73;
+
+}
+.numberr{
+    margin-left: 5.5%;
+    color: #AD8B73;
+}
+.cvv{
+    margin-left: 5.5%;
+    color: #AD8B73;
+ 
+}
+.thirdcard{
+    background-color: #eee1d5;
+    border:  1px solid #815B5B;
+    border-radius: 5px;
+    margin-top: 9%;
+    width: 80%;
+    height:auto;  
+    margin-left: -43.5%;
+}
+.inputnumber{
+    border: 2px solid #AD8B73;
+    border-radius: 25px;
+    white-space: nowrap;
+    width: 90%;
+    padding: 1%;
+    margin-left: 3%;
+    margin-top: 2%;
+    background-color: #eee1d5;
+    margin-bottom: 2%;
+}
+.inputcvv{
+    border: 2px solid #AD8B73;
+    border-radius: 25px;
+    white-space: nowrap;
+    width: 35%;
+    padding: 1%;
+    margin-left: 3%;
+    margin-top: 2%;
+    background-color: #eee1d5;
+    margin-bottom: 2%;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: -3.7%;
+}
+.subtotal{
+    margin-top: 15%;
+    margin-left: 40%;
+}
+.subtotalrow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.amount{
+    margin-top: -3.4%;
+    margin-left: 60%;
+    padding-top: 10px;
+   
+}
+.secondandthird{
+    display: flex;
+    flex-direction: column;
+}
+.tax{
+    margin-top: 1%;
+    margin-left: 40%;
+}
+.total{
+    margin-top: 1%;
+    margin-left: 40%;  
+}
+.under{
+    border-bottom: 1.5px solid #9E7676; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    width: 30%;
+    text-align: center;
+    justify-content: center;  
+    margin-top: 3%;
+}
+.totalamount{
+    margin-top: -2%;
+    margin-left: 60%; 
+}
+.done{
+    border: 2px solid #AD8B73;
+    border-radius: 25px;
+    background-color: #FAEAB1;
+    margin-left: 36%;
+    margin-top: 2%;
+    width: 30%;
+    padding: 0.5%;
+}
