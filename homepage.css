@@ -12,10 +12,9 @@ border-radius: 5px;
 margin-top: -0.47%;
 
 };
-.myheader img.image{
-    width: 1px ;
-    border-radius: 5px;
-    margin-right: 10px; 
+.logo{
+position: relative;
+height:25px;
 
 }
 .myheader  h1{
@@ -217,4 +216,7 @@ margin-top: -0.47%;
     margin-top: 2%;
     width: 30%;
     padding: 0.5%;
+}
+.done:hover{
+    background-color: #eee1d5;
 }
